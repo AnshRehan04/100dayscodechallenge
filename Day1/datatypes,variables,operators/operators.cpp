@@ -7,5 +7,4 @@ int main(){
     cout<<a<<endl;   //0
     cout<<f<<endl;   //0.4
     cout<<d<<endl;   //0.4
-
 }
