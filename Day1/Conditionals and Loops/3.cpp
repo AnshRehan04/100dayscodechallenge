@@ -28,5 +28,5 @@ int main(){
 //         cout<<"Equal to 5"<<endl;
 //     }
     
-    
+}
 // }
