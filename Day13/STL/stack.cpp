@@ -20,6 +20,10 @@ int main(){
     p.push(4);
     cout<<"Size "<<p.size()<<endl;
     cout<<"Top Element "<<p.top()<<endl;
+    while(!p.empty()){
+        cout<<p.top()<<" ";
+        p.pop();
+    }
     
 
 }
