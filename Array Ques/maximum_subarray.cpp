@@ -2,7 +2,7 @@
 using namespace std;
 int maxsum(int arr[],int n){
     int sum=0;
-    int maxi=arr[0];
+    int maxi=-1;
     for (int i = 0; i <n; i++)
     {
         sum+=arr[i];

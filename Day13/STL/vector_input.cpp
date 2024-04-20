@@ -35,5 +35,17 @@ int main(){
     // }
     // for(auto it:v3){
     //     cout<<it<<" ";
+    vector<int> a;
+    a.push_back(1);
+    a.push_back(13);
+    a.push_back(12);
+    // a.pop_back();
+    cout<<a.size()<<endl;
+    cout<<a.empty()<<endl;
+    cout<<a.back()<<endl;
+    cout<<a.front()<<endl;
+    for(int i:a){
+        cout<<i<<" ";
+    }
 
 }
